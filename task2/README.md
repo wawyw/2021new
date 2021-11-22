@@ -3,7 +3,7 @@
 ### 任务目的
 
 熟悉 `C `语法。
-掌握 `链表` 及其相应操作。
+掌握 `链表` 及其基本操作。
 
 ### 任务要求
 
@@ -17,7 +17,7 @@
 
 ### 题目：
 
-1 + 1 = 2
+两数相加
 
 ### 描述：
 
@@ -31,7 +31,7 @@
 
 ### 示范：
 
-已有链表：
+两（条）整数（链表）相加：
 
 ```
 (1 -> 3 -> 3) + (5 -> 9 -> 2)
@@ -43,32 +43,22 @@
 (6 -> 2 -> 6)
 ```
 
-请完善`addTwoNumbers()`函数。
+结构体,`addTwoNumbers()`函数及部分代码定义如下，请完善剩余代码。
 
-```
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
-ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        
+```c
+struct ListNode {
+    int val;
+    struct ListNode *next;
+};
+struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
+    
 }
+int main(){
+    int a[]={1,3,3};
+    int b[]={5,9,2};
 
+    addTwoNumbers(l1,l2);
 
-int main() {
-	// test codes example
-	ListNode* listA = new ListNode();
-	ListNode* listB = new ListNode();
-	int a[] = {1, 3, 3};
-	int b[] = {5, 9, 2};
-	for() {
-		// initilise listA and list B
-	}
-	addTwoNumbers(listA, listB);
 }
 ```
 
@@ -77,9 +67,17 @@ int main() {
 **算法需满足包括但不仅限于以下测试用例。**
 
 ```
-[2,4,3] + [5,6,4] = [7,0,8]
+定义有
+    int a[]={1,3,3};
+    int b[]={5,9,2};
+输出：
+	[6,2,6]
 
-[1,2,3,4] + [5,6] = [6,8,3,4]
+定义有
+    int a[]={1,2,3，4};
+    int b[]={5,6};
+输出：
+	[6,8,3,4]
 ```
 
 
