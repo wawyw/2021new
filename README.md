@@ -2,7 +2,7 @@
 
 ## 考核任务
 
-==注意：所有任务须提交到本仓库==
+**注意：所有任务须提交到本仓库**
 
 ## 任务一: Git & GitHub &md 
 - 了解什么是 [Git](https://git-scm.com/) 以及什么是 [Github](github.com (http://github.com/))
